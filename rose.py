@@ -1,0 +1,13 @@
+import turtle
+rose=turtle.Turtle()
+rose.speed(1)
+rose.penup()
+rose.left(90)
+rose.forward(200)
+rose.fillcolor("orange")
+rose.begin_fill()
+rose.pendown()
+rose.circle(15)
+rose.end_fill()
+rose.fillcolor("yellow")
+turtle.done()
